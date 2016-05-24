@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/05/2016, 20:54:35
+    Author     : gastonb
+*/
+.container {
+width: 520px;
+margin: 50px auto;
+border: solid 1px #1164B7;
+font: 1em arial, helvetica, sans-serif;
+color: black;
+padding-top: 200px;
+position: relative;
+top: 491px ;
+/*right: 200px;*/
+right: 400px;
+
+}
+#nombre
+{   position: absolute;
+    width: 240px;
+    top:730px; 
+    right:1080px;
+}
+#labelProducto
+{
+    position: absolute;
+    width: 240px;
+    top:710px; 
+    right:1080px;
+}
+
+#Titulo{
+ position:absolute;
+ top:0px;
+ right:140px;
+    
+}
+
+#cuerpo
+{
+    position: absolute;
+    bottom: 80px;
+    
+    
+    
+}
+
+#cuerpo1
+{
+    position: absolute;
+    bottom: 10px;
+        
+    
+    
+}
+
+/*#Detalle
+{
+  position:absolute; 
+    left: 12px;  
+    top:  200px;
+    
+}*/
+#nose
+{
+    position: relative;
+    left: 60px;
+}
+
+#Label1
+{   position:absolute; 
+    left:  0px;
+     top:  -50px; 
+    
+    
+}
+#btn1
+{
+    position: absolute;
+    left: 0px;
+    top:  -29px;  
+    
+}
+
+#container2 {
+width: 520px;
+margin: 50px auto;
+border: solid 1px #000;
+font: 1em arial, helvetica, sans-serif;
+color: black;
+padding-top: 200px;
+position: relative;
+top: 200px;
+right: -400px;
+}
+
+#Titulo2{
+ position:absolute;
+ top:0px;
+ right:140px;
+    
+}
+
+#cuerpo2
+{
+    position: absolute;
+    bottom: 80px;
+        
+    
+    
+}
+
+
+
+
