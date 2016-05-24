@@ -15,7 +15,7 @@ font: 1em arial, helvetica, sans-serif;
 color: black;
 padding-top: 200px;
 position: relative;
-top: 491px ;
+top: 400px ;
 /*right: 200px;*/
 right: 400px;
 
@@ -23,14 +23,14 @@ right: 400px;
 #nombre
 {   position: absolute;
     width: 240px;
-    top:730px; 
+    top:627px; 
     right:1080px;
 }
 #labelProducto
 {
     position: absolute;
     width: 240px;
-    top:710px; 
+    top:600px; 
     right:1080px;
 }
 
@@ -75,15 +75,25 @@ right: 400px;
 #Label1
 {   position:absolute; 
     left:  0px;
-     top:  -50px; 
+     top:  -70px; 
     
     
+}
+#botonBusqueda
+{ position: absolute;
+    left: 277px;
+    bottom: -4px; 
+}
+#botonBusqueda2
+{ position: absolute;
+    left:323px;
+    bottom: -5px; 
 }
 #btn1
 {
     position: absolute;
     left: 0px;
-    top:  -29px;  
+    top:  -49px;  
     
 }
 
