@@ -90,7 +90,7 @@ nav ul li:hover {
 
 
 .contenido {
-  padding-top: 220px;
+  padding-top: 100px;
 
 }
 
@@ -119,3 +119,9 @@ nav ul li:hover {
   border-left-style: solid;
 }*/
 
+/*#veremos
+{
+    position: absolute;
+    top: 100px;
+    
+}*/

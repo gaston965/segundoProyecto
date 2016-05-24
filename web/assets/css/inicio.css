@@ -223,7 +223,8 @@ right: 80px;
 #pie
 {
     position: relative;
-    bottom: -350px;
+    top: 250px;
+    color:#2E83D9R; 
     
 }
 /*
