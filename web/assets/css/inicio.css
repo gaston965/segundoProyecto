@@ -7,6 +7,84 @@ and open the template in the editor.
     Created on : 23/05/2016, 20:54:35
     Author     : gastonb
 */
+
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+div{
+
+
+}
+
+ 
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  background: rgb(128,128,128) ;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 40px;
+  color: #fff;
+  text-decoration: none;
+  float:left;
+}
+ 
+nav ul li:hover {
+  background: #7FB3D5  ;
+}
+
+/*#formulario
+{
+   
+   aling-items: center; 
+   justify-content: center;
+   
+
+
+}*/
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+
+
+.contenido {
+  padding-top: 220px;
+
+}
+
+
+
 .container {
 width: 520px;
 margin: 50px auto;
@@ -17,22 +95,11 @@ padding-top: 200px;
 position: relative;
 top: 400px ;
 /*right: 200px;*/
-right: 400px;
+right: 300px;
 
 }
-#nombre
-{   position: absolute;
-    width: 240px;
-    top:627px; 
-    right:1080px;
-}
-#labelProducto
-{
-    position: absolute;
-    width: 240px;
-    top:600px; 
-    right:1080px;
-}
+
+
 
 #Titulo{
  position:absolute;
@@ -81,14 +148,30 @@ right: 400px;
 }
 #botonBusqueda
 { position: absolute;
-    left: 277px;
+    left: 387px;
     bottom: -4px; 
 }
 #botonBusqueda2
 { position: absolute;
-    left:323px;
+    left:430px;
     bottom: -5px; 
 }
+
+#labelProducto
+{
+    position: absolute;
+    width: 240px;
+    top:600px; 
+    left:134px;
+}
+
+#nombre
+{   position: absolute;
+    width: 240px;
+    top:627px; 
+    left:134px;
+}
+
 #btn1
 {
     position: absolute;
@@ -99,14 +182,16 @@ right: 400px;
 
 #container2 {
 width: 520px;
+height: 230px;
 margin: 50px auto;
-border: solid 1px #000;
+border: solid 1px #1164B7;
 font: 1em arial, helvetica, sans-serif;
 color: black;
 padding-top: 200px;
-position: relative;
-top: 200px;
-right: -400px;
+/*padding-bottom: 50px ;*/
+position: absolute;
+top: 400px;
+right: 80px;
 }
 
 #Titulo2{
@@ -125,6 +210,17 @@ right: -400px;
     
 }
 
+#tablaProductos
+{
+    position: relative;
+    bottom: 165px;
+    
+}
 
 
-
+#pie
+{
+    position: relative;
+    bottom: -350px;
+    
+}

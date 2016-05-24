@@ -9,7 +9,7 @@ import net.iterart.pdv.model.DetalleDevolucion;
 import net.iterart.pdv.model.DetalleVentas;
 import net.iterart.pdv.model.Rubros;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-24T00:34:26")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-24T10:40:52")
 @StaticMetamodel(Productos.class)
 public class Productos_ { 
 
