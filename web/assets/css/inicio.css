@@ -87,13 +87,14 @@ nav ul li:hover {
 
 .container {
 width: 520px;
+height:230px;
 margin: 50px auto;
 border: solid 1px #1164B7;
 font: 1em arial, helvetica, sans-serif;
 color: black;
-padding-top: 200px;
+/*padding-top: 200px;*/
 position: relative;
-top: 400px ;
+top: 160px ;
 /*right: 200px;*/
 right: 300px;
 
@@ -149,26 +150,26 @@ right: 300px;
 #botonBusqueda
 { position: absolute;
     left: 387px;
-    bottom: -4px; 
+    top: 373px; 
 }
 #botonBusqueda2
 { position: absolute;
     left:430px;
-    bottom: -5px; 
+     top: 373px; 
 }
 
 #labelProducto
 {
     position: absolute;
     width: 240px;
-    top:600px; 
+    top:350px; 
     left:134px;
 }
 
 #nombre
 {   position: absolute;
     width: 240px;
-    top:627px; 
+    top:373px; 
     left:134px;
 }
 
@@ -187,10 +188,10 @@ margin: 50px auto;
 border: solid 1px #1164B7;
 font: 1em arial, helvetica, sans-serif;
 color: black;
-padding-top: 200px;
+/*padding-top: 200px;*/
 /*padding-bottom: 50px ;*/
 position: absolute;
-top: 400px;
+top: 160px;
 right: 80px;
 }
 
@@ -213,7 +214,8 @@ right: 80px;
 #tablaProductos
 {
     position: relative;
-    bottom: 165px;
+    top:30px;
+    
     
 }
 
@@ -224,3 +226,10 @@ right: 80px;
     bottom: -350px;
     
 }
+/*
+#cuerpoGeneral
+{
+    position: absolute;
+    top: 200px;
+    
+}*/
