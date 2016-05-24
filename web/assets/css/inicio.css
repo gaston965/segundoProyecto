@@ -28,8 +28,8 @@ p {
 header {
   background: rgb(128,128,128) ;
   width: 100%;
-  position: fixed;
-  z-index: 100;
+  position: absolute;
+  top:0px;
 }
 
 
@@ -233,3 +233,4 @@ right: 80px;
     top: 200px;
     
 }*/
+
