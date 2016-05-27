@@ -9,7 +9,7 @@ import net.iterart.pdv.model.Clientes;
 import net.iterart.pdv.model.DetalleVentas;
 import net.iterart.pdv.model.Empleados;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-24T19:51:47")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-26T23:28:42")
 @StaticMetamodel(Ventas.class)
 public class Ventas_ { 
 
