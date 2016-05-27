@@ -6,7 +6,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 import net.iterart.pdv.model.Productos;
 import net.iterart.pdv.model.Ventas;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-26T23:28:42")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-27T10:47:33")
 @StaticMetamodel(DetalleVentas.class)
 public class DetalleVentas_ { 
 

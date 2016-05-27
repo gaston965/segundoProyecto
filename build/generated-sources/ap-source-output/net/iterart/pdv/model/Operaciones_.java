@@ -6,7 +6,7 @@ import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 import net.iterart.pdv.model.Clientes;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-26T23:28:42")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-27T10:47:33")
 @StaticMetamodel(Operaciones.class)
 public class Operaciones_ { 
 

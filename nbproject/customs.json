@@ -1,6 +1,7 @@
 {
     "elements": {
-        "legend": {}
+        "legend": {},
+        "ui:include": {}
     },
     "attributes": {}
 }

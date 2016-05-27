@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/validacionProducto.css" rel="stylesheet" type="text/css"/>
+        <script src="assets/js/validacionProducto.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <header>
+            
+        </header>
+        
+        <nav>
+            
+        </nav>
+        
+        <section>
+
+
+              <div class="panel ">
+   	  <div class="panel-heading">
+   		<div class="panel-body"></div>
+   		<legend class="text-center" ><i class="glyphicon glyphicon-user"></i> Nuevo Producto </legend>
+   	    </div>
+        </div>
+
+
+
+            
+              <div class="container" id="formulario" >
+
+
+
+      
+     
+     		<form class="form-horizontal">
+     	         <div class="form-group">
+     	         	<label for="nombre" class="control-label col-md-2" >Codigo de Barras</label>
+     	          <div class="col-md-10">
+     	          	<input type="text" class="form-control" id="IDCODIGODEBARRAS"  placeholder="Codigo de Barras"  >
+     	            <span class="help-block NOSE"   >Debe ingresar Codigo de Barras (dato obligatorio)</span> 
+     	              
+     	          </div>
+     	
+     	         </div>
+     	
+     	         
+     	
+     	         <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="Descripcion">Descripcion</label>
+     					<div class="col-md-10">
+     	                	<input type="text" class="form-control" id="IDDESCRIPCION"  placeholder="Descripcion" >
+     	                    <span class="help-block NOSE2" >Debe ingresar Descripcion(dato obligatorio)</span> 
+     	                </div>	
+     	
+     	            </div>
+     	
+     	            
+     	
+     	
+     	
+     	            </div>
+     	
+     	            
+     	         <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="PRECIOCOMPRA">Precio-Compra</label>
+     					<div class="col-md-10">
+       	                	<input type="text" class="form-control" id="IDPRECIOCOMPRA" placeholder="0.0" value=""  >
+     	                     <span class="help-block NOSE3">Debe ingresar Precio-Compra(dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+     	
+     	            
+     	
+     	
+     	
+     	            </div>
+     	
+     	
+     	         <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="PORCENTAJEDEGANANCIAS">Porcentaje de Ganancias</label>
+     					<div class="col-md-10">
+     	                	<input type="text" class="form-control" id="IDPORCENTAJEDEGANANCIAS" placeholder="0.0" value="" >
+     	                     <span class="help-block NOSE4">Debe ingresar Porcentaje de Ganancias (dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+     	
+     	            
+     	
+     	
+     	
+     	            </div>
+     	
+     	               
+     	         <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" >Precio de Venta</label>
+     					<div class="col-md-10">
+     	                	<input type="text" class="form-control" id="IDPRECIODEVENTA" placeholder="0.0" value="" >
+     	                     <span class="help-block NOSE5">Debe ingresar Precio de Venta(dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+     	
+     	            
+     	
+     	
+     	
+     	            </div>
+     	
+     	
+     	             <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="">Porcentaje 2 precio</label>
+     					<div class="col-md-10">
+     	                	<input type="text" class="form-control " id="IDPORCENTAJE2PRECIO" placeholder="0.0" value="" >
+     	                	<span class="help-block NOSE6">Debe ingresar Porcentaje de 2 precio(dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+                     </div>
+                         
+                         
+     	             <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="">Precio de Venta 2</label>
+     					<div class="col-md-10">
+     	                	<input type="text" class="form-control " id="IDPRECIODEVENTA2" placeholder="0.0" value="" >
+     	                	<span class="help-block NOSE7">Debe ingresar Precio de Venta 2(dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+                         
+                 </div>
+                    
+                     <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="">Stock min</label>
+     					<div class="col-md-10">
+     	                	<input type="text" class="form-control " id="IDSTOCKMIN" placeholder="0.0" value="" >
+     	                	<span class="help-block NOSE8">Debe ingresar Stock min(dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+                         
+                 </div>
+                    
+                     <div class="form-group">
+     	            <div class="">
+     	            	<label class="control-label col-md-2" for="">Rubro</label>
+     					<div class="col-md-10">
+     	                	<div class="btn-group">
+                                        <button id="buttonRubro" type="button" class="btn btn-default dropdown-toggle"
+                                                data-toggle="dropdown">
+                                          Rubro<span class="caret"></span>
+                                        </button>
+
+                                        <ul class="dropdown-menu" role="menu">
+                                          <li><a href="#">Alimento</a></li>
+                                          <li><a href="#">Bebidas</a></li>
+                                          <li><a href="#">Bazar</a></li>
+                                          <li><a href="#">Cocina</a></li>
+                                          <li><a href="#">Golosinas</a></li>
+                                          <li><a href="#">Higiene Personal</a></li>
+                                          <li><a href="#">Limpieza</a></li>
+                                           <li><a href="#">Libreria</a></li>
+                                          
+                                        </ul>
+                               </div>
+                              <span class="help-block NOSE7">Debe ingresar Stock min(dato obligatorio)</span>
+     	                </div>	
+     	
+     	            </div>
+                         
+                 </div>
+     </form>
+
+         
+            
+
+
+
+            </div>
+
+            
+            	
+            	
+            
+            	
+            		
+    </section>        	
+
+            
+            
+       
+    
+        <aside>
+            
+            <div class="form-group">
+            		   <div class="col-md-offset-5">
+            			<button class="btn btn-default " id="miBoton" ><i class="glyphicon glyphicon-floppy-save"></i> Guardar</button>
+            		
+            			<button class="btn btn-default"><i class="glyphicon glyphicon-remove"></i> Cancelar</button>
+
+            			</div>
+            		</div>
+            
+            
+        </aside>
+    
+        <footer>
+              <script src="assets/js/jquery.js" type="text/javascript"></script>
+              <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+              <script src="assets/js/validacionProducto.js" type="text/javascript"></script>
+        </footer>    
+    </body>
+</html>

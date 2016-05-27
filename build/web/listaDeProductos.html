@@ -4,9 +4,11 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
 <html>
+    
     <head>
-        <title>TODO supply a title</title>
+        <title>listaDeProductos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -14,14 +16,22 @@ and open the template in the editor.
        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script> 
        <link href="assets/css/listaDeProductosStyle.css" rel="stylesheet" type="text/css"/>
 <!--       <link href="assets/css/validacionProveedores.css" rel="stylesheet" type="text/css"/>-->
-<link href="assets/css/inicio.css" rel="stylesheet" type="text/css"/>
-    
+<!--        <link href="assets/css/inicio.css" rel="stylesheet" type="text/css"/>-->
+     <style type="text/css">
+    table {
+       border:1px solid black;
+       border-collapse:separate;
+       }
+    th, td {
+       border:1px solid black;
+       }
+ </style>
     
     
     </head>
     <body>
         <header>
-          
+<!--            <ui:include src="navbar.xhtml"/>-->
         </header>   
         <nav>
             <div class="panel panel-default">
@@ -128,10 +138,10 @@ and open the template in the editor.
             
             
             
-            <button type="button" class="btn btn-info" id='btnAgregar'>Agregar</button>
+            <a href="nuevoProducto.html"> <button type="button" class="btn btn-info" id='btnAgregar'>Agregar</button> </a>
         </section>
          <aside></aside>
-         <footer><hr><center><p style="color:#2E83D9">Desarrollado por Iterart© Software 2015- Derechos Reservados</p></center></hr></footer>
+         <footer><hr><center><p style="color:#2E83D9">Desarrollado por Iterart © Software 2015- Derechos Reservados</p></center></hr></footer>
 
          <script src="assets/js/jquery.js" type="text/javascript"></script>
          <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
