@@ -20,7 +20,7 @@
 
 
 /*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
-* {
+/** {
   padding: 0;
   margin: 0;
 }
@@ -31,7 +31,7 @@ div{
 }
 
  
-/*Agregamos margenes inferiores a los parrafos*/
+Agregamos margenes inferiores a los parrafos
 p {
   margin-bottom: 20px;
 }
@@ -45,12 +45,12 @@ header {
 
 
 nav {
-  float: left; /* Desplazamos el nav hacia la izquierda */
+  float: left;  Desplazamos el nav hacia la izquierda 
 }
  
 nav ul {
   list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
+  overflow: hidden;  Limpiamos errores de float 
 }
  
 nav ul li {
@@ -60,7 +60,7 @@ nav ul li {
 }
  
 nav ul li a {
-  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  display: block;  Convertimos los elementos a en elementos bloque para manipular el padding 
   padding: 40px;
   color: #fff;
   text-decoration: none;
@@ -71,7 +71,7 @@ nav ul li:hover {
   background: #7FB3D5  ;
 }
 
-/*#formulario
+#formulario
 {
    
    aling-items: center; 
@@ -79,7 +79,7 @@ nav ul li:hover {
    
 
 
-}*/
+}
 
 .wrapper {
   width: 80%;
@@ -99,10 +99,10 @@ nav ul li:hover {
 
 	background-image: url("/home/gastonb/Descargas/intro/bootstrap-3.3.6-dist/grid/14751816-caramelos-colgando-de-la-cuerda-sobre-fondo-blanco-ilustraci-n-vectorial-Foto-de-archivo");
         
-/*        padding-top: 220px;*/
+        padding-top: 220px;
 
 
-}
+}*/
 
 #legend
 {

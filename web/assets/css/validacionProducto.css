@@ -19,109 +19,24 @@
 
 
 
-/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
-* {
-  padding: 0;
-  margin: 0;
-}
-
-div{
-
-
-}
-
- 
-/*Agregamos margenes inferiores a los parrafos*/
-p {
-  margin-bottom: 20px;
-}
-
-header {
-  background: rgb(128,128,128) ;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
-
-nav {
-  float: left; /* Desplazamos el nav hacia la izquierda */
-}
- 
-nav ul {
-  list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
-}
- 
-nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
- 
-nav ul li a {
-  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-  padding: 40px;
-  color: #fff;
-  text-decoration: none;
-  float:left;
-}
- 
-nav ul li:hover {
-  background: #7FB3D5  ;
-}
-
-/*#formulario
-{
-   
-   aling-items: center; 
-   justify-content: center;
-   
-
-
-}*/
-
-.wrapper {
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
-}
-
-
-
-.contenido {
-  padding-top: 100px;
-
-}
-
-#body
-{
-
-	background-image: url("/home/gastonb/Descargas/intro/bootstrap-3.3.6-dist/grid/14751816-caramelos-colgando-de-la-cuerda-sobre-fondo-blanco-ilustraci-n-vectorial-Foto-de-archivo");
-        
-/*        padding-top: 220px;*/
-
-
-}
-
-#legend
-{
-    text-align: center;
-    
-}
-
-/*#conat
-{
-  border-top-color: #CC0000;
-  border-right-color: blue;
-  border-bottom-color: #00FF00;
-  border-left-color: #CCC;    
-  border-left-style: solid;
-}*/
-
-/*#veremos
+/*#nuevoProducto
 {
     position: absolute;
-    top: 100px;
+    
     
 }*/
+
+
+#formulario
+{
+    position: relative;
+    top: -30px;
+    
+}
+
+#botones
+{
+    position: relative;
+    top: 800px;
+    
+}

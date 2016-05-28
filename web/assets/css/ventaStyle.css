@@ -71,7 +71,7 @@ and open the template in the editor.
 footer
 {
     position:absolute;
-    top:700px;
+    top:780px;
     left: 450px;
     
     
@@ -80,8 +80,8 @@ footer
 .btn-primary
 {
     position:absolute;
-    top: 630px;
-    left:100px;; 
+    top: 730px;
+    left:110px;; 
     
     
 }

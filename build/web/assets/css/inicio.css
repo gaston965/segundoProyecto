@@ -1,85 +1,4 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 23/05/2016, 20:54:35
-    Author     : gastonb
-*/
 
-/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
-* {
-  padding: 0;
-  margin: 0;
-}
-
-div{
-
-
-}
-
- 
-/*Agregamos margenes inferiores a los parrafos*/
-p {
-  margin-bottom: 20px;
-}
-
-header {
-  background: rgb(128,128,128) ;
-  width: 100%;
-  position: absolute;
-  top:0px;
-}
-
-
-nav {
-  float: left; /* Desplazamos el nav hacia la izquierda */
-}
- 
-nav ul {
-  list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
-}
- 
-nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
- 
-nav ul li a {
-  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-  padding: 40px;
-  color: #fff;
-  text-decoration: none;
-  float:left;
-}
- 
-nav ul li:hover {
-  background: #7FB3D5  ;
-}
-
-/*#formulario
-{
-   
-   aling-items: center; 
-   justify-content: center;
-   
-}*/
-
-.wrapper {
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
-}
-
-
-
-.contenido {
-  padding-top: 220px;
-
-}
 
 
 
@@ -87,12 +6,12 @@ nav ul li:hover {
 width: 520px;
 height:230px;
 margin: 50px auto;
-border: solid 1px #1164B7;
+border: solid 1px #2E4053  ;
 font: 1em arial, helvetica, sans-serif;
 color: black;
 /*padding-top: 200px;*/
 position: relative;
-top: 160px ;
+top: -15px ;
 /*right: 200px;*/
 right: 300px;
 
@@ -183,7 +102,7 @@ right: 300px;
 width: 520px;
 height: 230px;
 margin: 50px auto;
-border: solid 1px #1164B7;
+border: solid 1px #2E4053  ;
 font: 1em arial, helvetica, sans-serif;
 color: black;
 /*padding-top: 200px;*/
@@ -221,8 +140,8 @@ right: 80px;
 #pie
 {
     position: relative;
-    top: 250px;
-    color:#2E83D9R; 
+    top: 100px;
+    color:#2E83D9; 
     
 }
 /*
@@ -236,7 +155,7 @@ right: 80px;
 width: 1158px;
 height: 90px;
 margin: 50px auto;
-border: solid 1px #1164B7;
+border: solid 1px #2E4053  ;
 font: 1em arial, helvetica, sans-serif;
 color: black;
 /*padding-top: 200px;*/
