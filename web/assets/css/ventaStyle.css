@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/05/2016, 11:33:55
+    Author     : gastonb
+*/
+#labelBuscar
+{   position: relative;
+    left: 800px;
+}
+
+#searchText
+{
+    position: relative;
+    left: 810px;
+    
+}
+
+#btnAgregar
+{
+    position: relative;
+    left:100px;
+}
+
+#Fecha
+{
+    position: absolute;
+    left:800px;
+    
+}
+
+#Operador
+{
+    position: absolute;
+    top: 170px;
+    left:15px;
+}
+
+#Detalle
+{
+    position: absolute;
+    height: 250px;
+    
+}
+#Saldo
+{
+    position: absolute;
+    left: 800px;
+    
+}
+
+#Seccion
+{
+    position:absolute;
+    top: 400px;
+    left:110px;
+    
+}
+
+#tablaProductos
+{
+    position:absolute;
+    top:270px;
+    left: 0px;
+    
+}
+
+footer
+{
+    position:absolute;
+    top:700px;
+    left: 450px;
+    
+    
+}
+
+.btn-primary
+{
+    position:absolute;
+    top: 630px;
+    left:100px;; 
+    
+    
+}
