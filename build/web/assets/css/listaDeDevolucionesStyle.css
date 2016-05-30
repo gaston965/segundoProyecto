@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/05/2016, 16:43:58
+    Author     : gastonb
+*/
+
+.grupoBusqueda
+{
+    position: absolute;
+        left:900px;
+        top: 225px;
+    
+    
+    
+    
+}
+
+#container3 {
+width: 1360px;
+height: 90px;
+/*margin: 50px auto;*/
+border: solid 1px #898F96   ;
+font: 1em arial, helvetica, sans-serif;
+color: black;
+left:600px;
+/*padding-top: 200px;*/
+/*padding-bottom: 50px ;*/
+/*position: absolute;
+top: 400px;
+right: 80px;*/
+}

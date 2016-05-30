@@ -14,13 +14,17 @@ and open the template in the editor.
         <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
         <!--<link href="assets/css/validacionProveedores.css" rel="stylesheet" type="text/css"/>-->
         <link href="assets/css/inicio.css" rel="stylesheet" type="text/css"/>
+    
+    
+    
+    
     </head>
     
    
   <body>
       <header>
           
-<nav class="navbar navbar-default" role="navigation">
+ <nav class="navbar navbar-default" role="navigation">
  
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -68,7 +72,7 @@ and open the template in the editor.
         </a>
         <ul class="dropdown-menu">
           <li><a href="listaDeVentas.html"><i class="glyphicon glyphicon-shopping-cart"></i>Ventas</a></li>
-          <li><a href="#"><i class="glyphicon glyphicon-retweet"></i> Devoluciones</a></li>
+          <li><a href="listaDeDevoluciones.html"><i class="glyphicon glyphicon-retweet"></i> Devoluciones</a></li>
           <li><a href="#"><i class="glyphicon  glyphicon-usd"></i> Caja</a></li>
           
         </ul>
@@ -101,8 +105,8 @@ and open the template in the editor.
          
       
       
-      <nav>
-          
+      
+          <nav>
           <div class="panel panel-default">
                     <div class="panel-body">
                         <strong><center><h1>Gestión Diaria</h1></center></strong>
@@ -115,51 +119,57 @@ and open the template in the editor.
           
       </nav>
       <section>
-   <div id="cuerpoGeneral">    
-    <div class="container">
-      <br></br>
-         <div class="panel " >
-   	  <div class="panel-heading" id="Titulo">
-              <div class="panel-body" id="Detalle"></div>
-   		<legend  ><i class="glyphicon glyphicon-tags" ></i> Detalle </legend>
-   	    </div>
-        </div>
-     	<form class="form-horizontal">
-            <div class="" id="cuerpo">
-                <label for="nombre" id="Label1">Precio</label>
-                
-                <div class="">
-                    <div class="btn-group" id="btn1">
-                      <button type="button" class="btn btn-default dropdown-toggle"
-                            data-toggle="dropdown">
-                            Momento del dia <span class="caret"></span>
-                      </button>
-                       <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Dia</a></li>
-                            <li><a href="#">Noche</a></li>
-                            
-                          </ul>
-                    
-                    
-                    
-                    
-                    </div>
-                    
-                </div>
+                <div id="cuerpoGeneral">    
+                 <div class="container">
+                   <br></br>
+                      <div class="panel " >
+                    <div class="panel-heading" id="Titulo">
+                        <div class="panel-body" id="Detalle"></div>
+                          <legend  ><i class="glyphicon glyphicon-tags" ></i> Detalle </legend>
+                      </div>
+                            </div>
+                            <form class="form-horizontal">
+                                <div class="" id="cuerpo">
+                                    <label for="nombre" id="Label1">Precio</label>
 
-          </div>
-        </form>
+                                    <div class="">
+                                        <div class="btn-group" id="btn1">
+                                    <button type="button" class="btn btn-default dropdown-toggle"
+                                          data-toggle="dropdown">
+                                          Momento del dia <span class="caret"></span>
+                                    </button>
+                                     <ul class="dropdown-menu" role="menu">
+                                          <li><a href="#">Dia</a></li>
+                                          <li><a href="#">Noche</a></li>
+
+                                        </ul>
+                    
+                    
+                    
+                    
+                                        </div>
+                    
+                                    </div>
+
+                                </div>
+                            </form>
         
-            
-<!--            <button type="button" class="btn btn-default">Central</button>
-            <button type="button" class="btn btn-default">Derecho</button>-->
-         
+
       
       
        </div> 
-      <button type="button" class="btn btn-default" id="botonBusqueda"><i class="glyphicon glyphicon-search"></i></button>
-      <button type="button" class="btn btn-default" id="botonBusqueda2"><i class="glyphicon glyphicon-plus"></i></button>
-        
+     
+   </div>
+               
+          
+          
+          
+          
+          
+          
+              <button type="button" class="btn btn-default" id="botonBusqueda"><i class="glyphicon glyphicon-search"></i></button>
+              <a href="listaDeProductos.html" target="_top" > <button type="button" onclick="abrir_dialog()" class="btn btn-default" id="botonBusqueda2" > <i class="glyphicon glyphicon-plus"></i></button></a> 
+
                 
       
             	<form action="">
@@ -229,12 +239,12 @@ and open the template in the editor.
          
  
             </div>
-   </div>
+  
       
       <div class="panel" id="container3">
           <div class="panel-heading">
               <div class="panel-body">
-                        <!-- Muestra el botón de forma destacada para descubrir fácilmente
+<!--                         Muestra el botón de forma destacada para descubrir fácilmente
                             el botón principal dentro de un grupo de botones -->
                         <button type="button" class="btn btn-primary"><i class="glyphicon glyphicon-saved"> </i>Guardar Venta</button>
                   
@@ -245,8 +255,19 @@ and open the template in the editor.
           
       </div>
           
-          </section>
-      <aside></aside>
+    </section>
+      <aside>
+          
+         
+                
+                
+          
+          
+          
+          
+          
+          
+      </aside>
       
       
       
@@ -254,7 +275,24 @@ and open the template in the editor.
              
                 
                 
-            
+<!--            <div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div> /.modal-content 
+  </div> /.modal-dialog 
+</div> /.modal -->
+
             
             
             
