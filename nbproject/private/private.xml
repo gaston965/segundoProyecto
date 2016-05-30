@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/gastonb/NetBeansProjects/segundoProyecto/web/assets/css/navBar.css</file>
             <file>file:/home/gastonb/NetBeansProjects/segundoProyecto/web/WEB-INF/web.xml</file>
-            <file>file:/home/gastonb/NetBeansProjects/segundoProyecto/web/nuevaDevolucion.html</file>
-            <file>file:/home/gastonb/NetBeansProjects/segundoProyecto/web/assets/css/nuevaDevolucionStyle.css</file>
+            <file>file:/home/gastonb/NetBeansProjects/segundoProyecto/web/Modal.xhtml</file>
+            <file>file:/home/gastonb/NetBeansProjects/segundoProyecto/web/navBar.xhtml</file>
         </group>
     </open-files>
 </project-private>

@@ -1,7 +1,11 @@
 {
     "elements": {
         "legend": {},
-        "ui:include": {}
+        "ui:include": {
+            "attributes": {
+                "src": {}
+            }
+        }
     },
     "attributes": {}
 }

@@ -11,7 +11,7 @@ import net.iterart.pdv.model.Ingresos;
 import net.iterart.pdv.model.Usuarios;
 import net.iterart.pdv.model.Ventas;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-29T23:58:44")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-30T15:56:40")
 @StaticMetamodel(Empleados.class)
 public class Empleados_ { 
 
