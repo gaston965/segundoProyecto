@@ -6,7 +6,7 @@ import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 import net.iterart.pdv.model.Usuarios;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-30T15:56:40")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-31T00:39:46")
 @StaticMetamodel(Niveles.class)
 public class Niveles_ { 
 

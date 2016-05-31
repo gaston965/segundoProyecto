@@ -6,7 +6,8 @@ and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-    >
+      
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <head>
         <title>Inicio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,7 +15,7 @@ and open the template in the editor.
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
          <script src="assets/js/jquery.js" type="text/javascript"></script>
         <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-        <!--<link href="assets/css/validacionProveedores.css" rel="stylesheet" type="text/css"/>-->
+        <link href="assets/css/validacionProveedores.css" rel="stylesheet" type="text/css"/>
         <link href="assets/css/inicio.css" rel="stylesheet" type="text/css"/>
     
     
@@ -24,94 +25,18 @@ and open the template in the editor.
     
    
   <body>
-      <header>
-          
- <nav class="navbar navbar-default" role="navigation">
- 
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse"
-            data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Desplegar navegación</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-      <a class="navbar-brand" href="#"><img src="images.png"></img></a>
-  </div>
- 
-  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-       otro elemento que se pueda ocultar al minimizar la barra -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-       <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-       <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-       <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-       
-      <li class=""><a href="Inicio.xhtml"><i class="glyphicon glyphicon-home"></i> Inicio</a></li>
-      <li><a href="listaDeProductos.html"><i class="glyphicon glyphicon-apple"></i> Productos</a></li>
-   
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="glyphicon glyphicon-briefcase"></i> Operaciones<b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="listaDeVentas.html"><i class="glyphicon glyphicon-shopping-cart"></i>Ventas</a></li>
-          <li><a href="listaDeDevoluciones.html"><i class="glyphicon glyphicon-retweet"></i> Devoluciones</a></li>
-          <li><a href="#"><i class="glyphicon  glyphicon-usd"></i> Caja</a></li>
-          
-        </ul>
-      </li>
-    </ul>
- 
-    
- 
-    <ul class="nav navbar-nav navbar-right">
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <i class="glyphicon glyphicon-king"></i> Gestiones Admin<b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-            <li><a href="#"><i class="glyphicon glyphicon-king"></i> Compras</a></li>
-          <li><a href="nuevoProveedor.html"><i class="glyphicon glyphicon-paste"></i> Proveedores</a></li>
-          <li><a href="#"><i class="glyphicon glyphicon-user"></i>Empleados</a></li>
-         
-        </ul>
-      </li>
-      <li class="active"><a href="#">Salir</a></li>
-      
-    </ul>
-  </div>
-</nav>
+    <header>
+        
+        <ui:include src="navBar.xhtml"/>
           
           
           
       </header>
          
-      
-      
-      
-          <nav>
+        <nav>
           <div class="panel panel-default">
                     <div class="panel-body">
-                        <strong>Gestión Diaria</strong>
+                        <strong><center><h1>Gestión Diaria</h1></center></strong>
                     </div>
                   </div>
           
@@ -125,9 +50,9 @@ and open the template in the editor.
                  <div class="container">
                    <br></br>
                       <div class="panel " >
-                    <div class="panel-heading" id="Titulo">
+                    <div class="panel-heading left" id="Titulo">
                         <div class="panel-body" id="Detalle"></div>
-                          <strong><i class="glyphicon glyphicon-tags" ></i> Detalle </strong>
+                          <legend  ><i class="glyphicon glyphicon-tags" ></i> Detalle </legend>
                       </div>
                             </div>
                             <form class="form-horizontal">
@@ -170,7 +95,7 @@ and open the template in the editor.
           
           
               <button type="button" class="btn btn-default" id="botonBusqueda"><i class="glyphicon glyphicon-search"></i></button>
-              <a href="#"  data-target="#cuerpo" data-toggle="modal"  > <button type="button"  class="btn btn-default" id="botonBusqueda2" > <i class="glyphicon glyphicon-plus"></i></button></a> 
+              <a href="#" data-target="#ventana" data-toggle="modal" > <button type="button"  class="btn btn-default" id="botonBusqueda2" > <i class="glyphicon glyphicon-plus"></i></button></a> 
 
                 
       
@@ -190,7 +115,7 @@ and open the template in the editor.
          <div class="panel " >
    	  <div class="panel-heading" id="Titulo2">
    		<div class="panel-body"></div>
-   		<strong class="text-center" ><i class="glyphicon glyphicon-tags"></i> Productos Agregados </strong>
+   		<legend class="text-center" ><i class="glyphicon glyphicon-tags"></i> Productos Agregados </legend>
    	    </div>
                
          
@@ -273,7 +198,7 @@ and open the template in the editor.
       
       
       
-      <footer id="pie"><center><p style="color:#2E83D9">Desarrollado por Iterart© Software 2015- Derechos Reservados</p></center></footer>
+      <footer id="pie"><hr> <center><p style="color:#2E83D9">Desarrollado por Iterart© Software 2015- Derechos Reservados</p></center></hr></footer>
              
                 
                 
@@ -305,7 +230,11 @@ and open the template in the editor.
     
 
        
-         <script src="assets/js/jquery.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.js" type="text/javascript"></script>
         <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
+
+      
+      
+          
