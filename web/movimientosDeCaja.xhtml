@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <head>
+        <title>Movimientos de Caja</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="assets/js/jquery.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+         <style type="text/css">
+    table {
+       border:1px solid black;
+       border-collapse:separate;
+       }
+    th, td {
+       border:1px solid black;
+       }
+         </style>
+    
+    
+    
+    
+    
+    </head>
+    <body>
+        
+        <header>
+            <ui:include src="navBar.xhtml"></ui:include>
+        </header>
+        
+        <nav>
+            
+        </nav>
+        
+        <section>
+            
+            <div class="row">
+                
+                 <div class="panel panel-default">
+                     <div class="panel-heading ">
+                            <center><h1> Movimientos de Caja</h1></center>
+                
+                
+                
+                
+                
+                
+                                </div>
+                    
+                     <div class="panel panel-default" style="margin-left: 20px">
+                         <h4><p>Listado de Ingresos</p></h4> 
+                           
+                     
+                     
+                     
+                     </div>
+                    
+                     <div class="panel-body">
+                            
+                       
+                           <label>Ver</label> 
+                           
+                           
+                           
+                           <div class="btn-group">
+                                  <button type="button" class="btn btn-default btn-xs dropdown-toggle"
+                                    data-toggle="dropdown"><span class="caret"></span>
+                                   </button>
+ 
+                                     <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">10</a></li>
+                                            <li><a href="#">25</a></li>
+                                            <li><a href="#">45</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">100</a></li>
+                                    </ul>
+                           </div>
+                           <label>Registros</label> 
+                           
+                           <label id="labelBuscar">Buscar</label>
+                           <input type="text" placeHolder="" id="searchText"></input>
+                   
+                     <br></br><br></br>
+                     <table class="table table-bordered " id="tablaProductos">
+                 
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Fecha</th>
+                        <th>Descripcion Ingreso</th>
+                        <th>Importe</th>
+                        <th>Empleado Responsable</th>
+                        <th><i class="glyphicon glyphicon-triangle-bottom"></i></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                         <td></td>
+                         <td><button data-toggle="modal" data-target="#myModal" type="button" class="btn btn-primary"><i class="glyphicon glyphicon-eye-open"></i></button></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                         <td></td>
+                          <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                         <td></td>
+                          <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                         <td></td>
+                          <td></td>
+                      </tr>
+                       <tr>
+                        <th scope="row">5</th>
+                        <td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                         <td></td>
+                      </tr>
+                    </tbody>
+
+                  
+                  
+                  
+               </table>   
+                     
+                     
+                     
+                     
+                     
+                     </div>
+                       
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 </div>  
+                
+               
+                         
+                         
+                         
+                         
+                         
+                     </div>
+            
+            
+            
+                    
+               
+          
+    </section>
+        
+        <aside>
+           
+            
+            <!-- Modal -->
+<div id="myModal" class="modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&amp;</button>
+        <h4 class="modal-title">ABM-INGRESOS</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="ejemplo_email_3" class="col-lg-2 control-label">Concepto(*)</label>
+    <div class="col-lg-10">
+      <input type="email" class="form-control" id="ejemplo_email_3"
+             placeholder="Concepto (*)"></input>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="ejemplo_password_3" class="col-lg-2 control-label">Importe(*)</label>
+    <div class="col-lg-10">
+      <input type="password" class="form-control" id="ejemplo_password_3" 
+             placeholder="Importe:(*)"></input>
+    </div>
+  </div>
+  
+  
+</form>
+     
+       
+  </div>
+           <div class="modal-footer">  
+        <button class="btn btn-info">Aceptar</button>
+        <button class="btn btn-danger">Cancelar</button>      
+        </div>  
+        
+        
+        
+</div>
+    
+    
+    
+  
+            
+            
+  </div> 
+</div>
+        </aside>
+        
+        <footer>
+            <ui:include src="footer.xhtml"></ui:include>
+        </footer>
+    
+    </body>
+</html>

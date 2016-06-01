@@ -7,7 +7,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 import net.iterart.pdv.model.Categoria;
 import net.iterart.pdv.model.Empleados;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-31T00:39:46")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-05-31T21:44:23")
 @StaticMetamodel(Gastos.class)
 public class Gastos_ { 
 
